@@ -17,8 +17,16 @@ body{
 }
 
 .head{
-    margin-bottom: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+bottom: 100%;
     color:rgb(24, 3, 3);
+}
+
+.foot{
+    position: absolute;
+    bottom: 5%;
 }
 
 .container{
